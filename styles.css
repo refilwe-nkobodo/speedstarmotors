@@ -1,0 +1,222 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li .active {
+    font-weight: bold;
+    border-bottom: 2px solid #ff4500;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+/* About Page Layout */
+.about-container {
+    display: flex;
+    max-width: 2000px;
+    margin: 20 auto; /* Center the container */
+    gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    background: #e0e0e0;
+    color: black;
+}
+
+.sidebar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff4500;
+}
+
+.sidebar img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Main Content */
+.about-content {
+    width: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+/*Services Page Layout*/
+.services-container {
+    display: flex;
+    max-width: 1800px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 9px;
+    background: #e0e0e0;
+    color: black;
+}
+
+.sidebar a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff4500;
+}
+.sidebar img {
+    width: 100px;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+.services-content {
+    width: 75%;
+    background: white;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+    .container {
+    max-width: 500px;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centers the container */
+    text-align: center; /* Centers text within the container */
+    }
+    
+    label {
+        font-weight: bold;
+        display: block;
+        text-align: left;
+    }
+    
+    textarea, input, select {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    button {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #333;
+    }
+    
+    .contactus-container {
+        max-width: 500px;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centers the container */
+    text-align: center; /* Centers text within the container */
+    }
+
+    form {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: #f9f9f9;
+    }
+    input, textarea, button {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    button {
+        background: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
